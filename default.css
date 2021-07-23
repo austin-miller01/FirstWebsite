@@ -79,6 +79,13 @@ h6{font-size: 16px;}
 	min-height: 10em;
 }
 
+#android-h-bg{
+	background-color: var(--mainColor);
+}
+#android-h{
+	background-color: #fff;
+}
+
 .intro-wrapper{
 	background-color: var(--secondaryColor);
 	border: 1px solid var(--borderColor);
