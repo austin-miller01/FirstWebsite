@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="default.css">
-	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+	<!--<link id="theme-style" rel="stylesheet" type="text/css" href="">-->
 
 
 	<style type="text/css">
@@ -40,56 +40,43 @@
 
 		<ul id="navigation">
 			<li><a href="index.html">Home</a></li>
-			<li><a href="#bottom">Contact</a></li>
+			<li><a href="index.html#contact">Contact</a></li>
 
 		</ul>
 	</div>
 
-	<section id="android-h-bg" class="s2">
-		<div  class="main-container">
-			
-				<h1>My First Android App</h1>
-		</div>
-	</section>
-
-	<section class="s1">
 	<div class="main-container">
-		<div class="todolist-article-header">
-			<h4>A Simple Todo List</h4>
-			<p align="left">For my very first android app I made a simple todo list, this list can have ass many items as necessary and even has a mark-out feature. The only downfall being it does not save your items if the app closes</p>
-			<br>
-			<p>Take a look at the source code: <a target="_blank" href="https://github.com/austin-miller01/TodoList-FirstApp">here.</a> </p>
+		<br>
 
+
+		
+		<h3>ToDo List Application</h3>
+
+		<p>For my first ever attempt at an aplication, I made a simple todo list app. This app helped me to get the basics of android studio and kotlin down.
+		<br>
+		<br>
+		The application as stated, was simply a list where you can input items that you need to do. Similar to a written list.
+		<br>
+		<br>
+		However simple it may seem, this app included a scrolling recycler feature and also allowed for items to be deleted upon request. By simply checking the box the user could cross an item out(mark the item as done). And with a simple click of a button the finished items could be removed from the list
+
+
+		<h5>Technologies:</h5>
+		<ul>
+			<li>- Kotlin</li>
+			<li>- Android Studio</li>
+			<li>- XML</li>
+		</ul>
+
+
+		<h5>Sample Application Run</h5>
+		<div class="img-container">
+			<img src="images/todolistapp.JPG">
 		</div>
-		<div class="android-img">
-			<img id="app-img" src="images/todolistapp.JPG">
-		</div>
+
+
 	</div>
-
-	</section>
-
-
-	<section id="bottom" class="s2">
-		<div class="main-container">
-			<h3 style="text-align: center;">Get In Touch</h3>
-
-			<form id="contact-form">
-				
-				<label>Name</label>
-				<input class="input-field" type="text" name="name">
-
-				<label>Subject</label>
-				<input class="input-field" type="text" name="subject">
-
-				<label>Email</label>
-				<input class="input-field" type="text" name="email">
-
-				<label>Message</label>
-				<textarea class="input-field" name="message"></textarea>
-
-				<input id="submit-btn" type="submit" value="Send">
-			</form>
-		</div>
-	</section>
+	<!--Need to work on format-->
+	<!--<script type="text/javascript" src="script.js"></script>-->
 </body>
 </html>
