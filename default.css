@@ -389,6 +389,11 @@ h6{font-size: 16px;}
 	border: none;
 }
 
+
+#submit-btn:hover{
+	background-color: #000;
+}
+
 .todolist-article-header{
 	border: 2px black;
 	padding-top: 20px;
