@@ -224,10 +224,28 @@ h6{font-size: 16px;}
 
 
 }
+.theme-dot .light-tooltip{
+	visibility: hidden;
+	width: 120px;
+	background-color: var(--secondaryColor);
+	color: var(--secondaryText);
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
 
+	position: absolute;
+	z-index: 1;
+
+	top: -5px;
+	right: 105%;
+}
 .theme-dot:hover{
 	
 	border-width: 5px;
+}
+
+.theme-dot:hover .light-tooltip{
+	visibility: visible;
 }
 
 #light-mode{
