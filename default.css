@@ -25,7 +25,7 @@ html, body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: center;/*Not needed makes secondary pages look weird*/
 	height: 100vh;
 	padding:  0,;
 	margin: 0;
@@ -485,4 +485,22 @@ h6{font-size: 16px;}
 	.right-column{
 		justify-content: center;
 	}
+}
+
+.tap-counter-logo-container{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.img-container{
+	height: 400px;
+	width: 400px;
+	
+}
+
+#tap-counter-logo{
+	height: 100%;
+	width: 100%;
 }
