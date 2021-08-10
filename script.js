@@ -28,6 +28,7 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'dark.css'
 	}
 
+  
 	/*if(mode == 'green'){
 		document.getElementById('theme-style').href = 'green.css'
 	}
